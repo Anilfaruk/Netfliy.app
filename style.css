@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+    padding: 1rem;
+    display: block;
+    
+}
+header a img {
+    width: 60px;
+}
+
+.top-img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.link{
+    font-size: 2rem;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
+.sticky-nav{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-size: 30px;
+    padding: 32px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+p{
+    font-size: 2rem;
+}
+.logo{
+    background-color:green;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom:1rem;
+    right: 2rem;
+    z-index: 1;
+}
